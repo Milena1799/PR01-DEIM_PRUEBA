@@ -10,7 +10,7 @@ public class CuboDos : MonoBehaviour
     {
         for (myNum = 5; myNum < 0; myNum--)
         {
-            Debug.Log (myNum);
+            Debug.Log(myNum);
         }
     }
 
