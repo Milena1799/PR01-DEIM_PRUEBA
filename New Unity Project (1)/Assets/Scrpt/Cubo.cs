@@ -9,6 +9,9 @@ public class Cubo : MonoBehaviour
     private int result;
 
 
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +28,15 @@ public class Cubo : MonoBehaviour
         {
             Debug.Log("El resultado es igual a 10");
         }
+
+        {
+            print("Este es el resultado final"  + result);
+        }
+
+        {
+            print("Felicidades lo has completado");
+        }
+
     }
 
     // Update is called once per frame
