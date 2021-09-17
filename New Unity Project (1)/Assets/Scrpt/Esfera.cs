@@ -9,20 +9,20 @@ public class Esfera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        if (num1 <= 25)
+        {
+            num1++;
+
+        }
+        else
+        {
+            print("Ha llegado al limite");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if  (num1<= 25)
-        {
-           num1++;
-          
-        }
-        else
-        { 
-            print("Ha llegado al limite"); 
-        }
+
     }
 }
