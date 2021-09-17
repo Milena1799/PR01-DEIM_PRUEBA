@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class Cilindro : MonoBehaviour
 {
-    float aleatorio; 
+    public int num1;
     // Start is called before the first frame update
     void Start()
     {
-        for(int n =0; n < 10; n++)
+        num1 = 1;
+        while (num1 <= 10)
         {
-            aleatorio = Random.Range(0, 5);
-            print(aleatorio);
-        }
+            if (num1 < 5)
+            {
+                print("El numero menor que 5");
+            }
+            else if (num1 >= 5 && num1 <= 10)
+            {
+                print("El numero es " + num1);
+            }
+            else
+            {
+                print("El numero es 10");
+            }
+
+            num1++;
+        }                                                                                    
+        
     }
 
     // Update is called once per frame
