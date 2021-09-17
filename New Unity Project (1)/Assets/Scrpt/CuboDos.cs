@@ -8,11 +8,10 @@ public class CuboDos : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (myNum = 5; myNum < 0; myNum++)
+        for (myNum = 5; myNum < 0; myNum--)
         {
             Debug.Log (myNum);
         }
-
     }
 
     // Update is called once per frame
